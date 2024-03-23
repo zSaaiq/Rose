@@ -3,7 +3,7 @@ Name: libRose
 Depends: mobilesubstrate, firmware (>= 15.0)
 Version: 1.0
 Architecture: iphoneos-arm
-Description:
+Description: Library
 Maintainer: Litten
 Author: Litten
 Section: System

@@ -1,3 +1,4 @@
+THEOS_DEVICE_IP = 192.168.178.116
 FINALPACKAGE = 1
 export ARCHS = arm64 arm64e
 export TARGET = iphone:clang:15.6
