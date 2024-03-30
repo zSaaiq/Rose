@@ -6,7 +6,7 @@ The most advanced and feature rich system wide haptic feedback tweak
 2. Install Rose
 
 ## Compatibility
-iPhone running iOS 13 or later
+iPhone running iOS 15 or later
 
 ## Compiling
   - [Theos](https://theos.dev/) is required to compile the project

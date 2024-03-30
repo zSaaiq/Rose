@@ -7,7 +7,7 @@ export PREFIX = $(THEOS)/toolchain/Xcode.xctoolchain/usr/bin/
 LIBRARY_NAME = libRose
 $(LIBRARY_NAME)_OBJC_FILES = libRose.m
 $(LIBRARY_NAME)_FRAMEWORKS = UIKit AudioToolbox
-libkitten_LDFLAGS += -install_name @rpath/var/jb/libRose.dylib
+libkitten_LDFLAGS += -install_name @rpath/libRose.dylib
 $(LIBRARY_NAME)_CFLAGS = -I./ -Ipublic -Ioverlayheaders -I. -fobjc-arc -DTHEOS_LEAN_AND_MEAN
 $(LIBRARY_NAME)_USE_MODULES = 0
 

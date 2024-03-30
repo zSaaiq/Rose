@@ -1,9 +1,7 @@
 ARCHS = arm64 arm64e
 THEOS_PACKAGE_SCHEME=rootless
 BUNDLE_NAME = RosePrefs
-ifeq ($(THEOS_PACKAGE_SCHEME), rootless)
-$(BUNDLE_NAME)_LDFLAGS += -install_name @rpath/var/jb/libkitten.dylib
-endif
+$(BUNDLE_NAME)_LDFLAGS += -install_name @rpath/libkitten.dylib
 $(BUNDLE_NAME)_FILES = $(wildcard *.m)
 $(BUNDLE_NAME)_INSTALL_PATH = /Library/PreferenceBundles
 $(BUNDLE_NAME)_FRAMEWORKS = UIKit
