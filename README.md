@@ -2,7 +2,7 @@
 The most advanced and feature rich system wide haptic feedback tweak
 
 ## Installation
-1. Add this repository to your package manager: `TBD`
+1. Add this repository to your package manager: https://zsaaiq.github.io/jailbreakrepo/
 2. Install Rose
 
 ## Compatibility
